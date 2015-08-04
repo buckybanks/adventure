@@ -1,0 +1,2 @@
+module NewAdventuresHelper
+end

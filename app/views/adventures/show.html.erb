@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @adventure.location %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @adventure.date %>
+</p>
+
+<p>
+  <strong>Coordinates:</strong>
+  <%= @adventure.coordinates %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @adventure.integer %>
+</p>
+
+<%= link_to 'Edit', edit_adventure_path(@adventure) %> |
+<%= link_to 'Back', adventures_path %>
